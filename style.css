@@ -187,3 +187,46 @@
 .productbox img{
     width: 180px;
 }
+.productbox p{
+    color: #3b3b43;
+    font-family: myrid pro;
+    font-size: 18px;
+    letter-spacing: 0.75px;
+}
+.productbox a{
+    color: #2c2c2c;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1rem;
+}
+.productbox .buybtn{
+    position: absolute;
+    background:linear-gradient(120deg,rgb(11, 164, 235) 20%,rgb(95, 119, 0)) ;
+    height: 40px;
+    width: 130px;padding-bottom:0 ;
+    padding-left: 40px;
+    padding-right: -20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    left: 124px;
+    bottom: 5px;
+    margin-bottom: -24px;
+    display:none;
+    transform: translateX(-50%);
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    animation:cubic-bezier(0.39, 0.575, 0.565, 1) 0.5s ;
+}
+.productbox:hover .buybtn{
+    display: flex;
+}
+.productbox:hover{
+    box-shadow: 2px 2px 10px black;
+    outline: none;
+    border: none;
+}
